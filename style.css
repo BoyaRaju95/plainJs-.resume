@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    cursor: url(./images/cursor-removebg-preview\ \(1\).png), auto;
+}
+
+.setName {
+    width: 50%;
+    height: 140vh;
+    background-color: white;
+    margin-left: 25%;
+
+}
+
+.firstll {
+    padding-left: 22px;
+    font-size: 18px;
+    transition: all 2s;
+
+}
+
+.firstll::first-letter {
+    color: red;
+    font-weight: bolder;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    margin-left: 22px;
+    margin-top: 20px;
+    text-align: left;
+    border-collapse: collapse;
+    padding: 10px 20px;
+    transition: all 1s;
+
+}
+
+
+table:hover {
+
+    box-shadow: 0px 0px 10px 0px rgb(20, 20, 20);
+    transform: scale(1.05);
+    margin-left: 30px;
+    background-color: #e7cd7ff4;
+
+}
+
+
+.firstLi {
+
+    padding-left: 28px;
+    font-size: 18px;
+
+}
+
+.firstLi::first-letter {
+
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
